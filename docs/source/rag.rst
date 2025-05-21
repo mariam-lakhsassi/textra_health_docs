@@ -1,3 +1,27 @@
+.. role:: red
+   :class: red
+
+.. role:: green
+   :class: green
+
+.. role:: blue
+   :class: blue
+
+.. role:: orange
+   :class: orange
+
+.. raw:: html
+
+   <style>
+   .red {color: red;}
+   .green {color: green;}
+   .blue {color: blue;}
+   .orange {color: orange;}
+   </style>
+
+Génération du rapport
+=============================
+
 *Collecte de données:*
 
 Nous avons utilisé des fichiers PDF et CSV existants sur les médicaments marocains et français:
