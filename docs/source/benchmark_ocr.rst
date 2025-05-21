@@ -33,8 +33,8 @@ Dans le domaine médical, l'exactitude des données est primordiale. C'est dans 
 Résultats de notre étude
 ------------------------
 
-:blue:`TROCR `
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`TROCR `
+~~~~~~~~
 
 .. image:: image/image1.png
    :alt: Résultats Doctr
@@ -48,13 +48,13 @@ TROCR se révèle être le système le plus précis de notre benchmark. Sur nos 
     from doctr.models import ocr_predictor
 
     model = ocr_predictor(pretrained=True)
-    for i in range(1, 21):  # Pour nos 20 analyses
+    for i in range(1, 301):  # Pour nos 20 analyses
         image_path = f"images_analyse/{i}.jpg"
         doc = DocumentFile.from_images(image_path)
         result = model(doc)
 
-:green:`EasyOCR `
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`EasyOCR `
+~~~~~~~~~~
 
 .. image:: image/image2.png
    :alt: Résultats EasyOCR
@@ -72,7 +72,7 @@ EasyOCR nous a donné :green:`54% de précision` et un F1 Score de :green:`0,54`
     for img in sorted(os.listdir(image_dir)):
         result = reader.readtext(os.path.join(image_dir, img))
 
-:red:`PaddleOCR`
+`PaddleOCR`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: image/image3.png
@@ -98,7 +98,7 @@ Nos résultats sur ces 300 préscriptions médicales se résument comme suit :
 - :green:`EasyOCR` : 54% de précision, 0.6 secondes par image, F1 Score de 0.54
 - :red:`PaddleOCR` : 52% de précision, 0.14 secondes par image, F1 Score de 0.52
 
-.. image:: image/image4.png
+.. image:: image/image4.jpeg
    :alt: Résultats 
 
 
