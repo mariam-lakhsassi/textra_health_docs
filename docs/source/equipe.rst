@@ -1,3 +1,24 @@
+.. role:: red
+   :class: red
+
+.. role:: green
+   :class: green
+
+.. role:: blue
+   :class: blue
+
+.. role:: orange
+   :class: orange
+
+.. raw:: html
+
+   <style>
+   .red {color: red;}
+   .green {color: green;}
+   .blue {color: blue;}
+   .orange {color: orange;}
+   </style>
+
 Equipe
 ======================================
 

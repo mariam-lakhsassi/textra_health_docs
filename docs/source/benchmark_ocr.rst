@@ -19,8 +19,8 @@
    .orange {color: orange;}
    </style>
 
-Benchmark OCR d'Analyses Sanguines
-================================
+Benchmark OCR 
+===================
 
 Introduction
 -----------
