@@ -17,7 +17,13 @@ release = '2025'
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.viewcode',
+    'myst_parser',
 ]
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
 
 html_theme = 'sphinx_rtd_theme'
 templates_path = ['_templates']
@@ -30,3 +36,5 @@ exclude_patterns = []
 
 
 html_static_path = ['_static']
+# Ajoutez cette ligne à la fin de votre conf.py
+master_doc = 'index'
