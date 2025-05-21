@@ -16,9 +16,9 @@ Bienvenue à Textra-Health's documentation!
    equipe.md
    Pipeline.md
    benchmark_ocr.md
-   east.md
+   east.rst
    east_vlm.md
    east_ocr.md
-   rag.md
+   rag.robuste
    interface.md
    perspectives.md
