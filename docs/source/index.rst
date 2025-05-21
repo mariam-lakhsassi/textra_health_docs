@@ -15,10 +15,10 @@ Bienvenue à Textra-Health's documentation!
 
    equipe.md
    Pipeline.md
-   benchmark_ocr.md
+   benchmark_ocr.rst
    east.rst
    east_vlm.md
    east_ocr.md
-   rag.robuste
+   rag.rst
    interface.md
    perspectives.md
