@@ -8,7 +8,7 @@ L'encadrant :
     - **Encadrant**: Masrour Tawfik |linkedin_Masrour|
     - **Encadrant**: Masrour Mehdi |linkedin_Masrour|
    
-.. |linkedin_Masrour| image:: \image\LinkedIn_Logo.jpeg
+.. |linkedin_Masrour| image:: image/LinkedIn_Logo.jpeg
     :width: 16
     :height: 16
     :target: https://www.linkedin.com/in/tawfik-masrour-43163b85/
