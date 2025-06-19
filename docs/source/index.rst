@@ -19,6 +19,7 @@ Bienvenue à Textra-Health's documentation!
    east.rst
    east_vlm.md
    east_ocr.rst
+   ocr_docling.rst
    rag.rst
    interface.md
    perspectives.md
