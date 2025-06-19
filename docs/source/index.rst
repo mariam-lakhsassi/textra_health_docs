@@ -13,12 +13,12 @@ Bienvenue à Textra-Health's documentation!
    :maxdepth: 2
    :caption: Table des matières:
 
-   equipe.md
+   equipe.rst
    Pipeline.md
    benchmark_ocr.rst
    east.rst
    east_vlm.md
-   east_ocr.md
+   east_ocr.rst
    rag.rst
    interface.md
    perspectives.md
