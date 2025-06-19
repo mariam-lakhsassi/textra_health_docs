@@ -42,6 +42,7 @@ The EAST model is based on a Fully Convolutional Network (FCN) architecture. It 
 .. image:: image/EAST.png
    :alt: EAST model architecture
    :align: center
+...existing code...
 
 Workflow Overview
 -----------------
@@ -50,94 +51,94 @@ The typical workflow for using EAST in the provided notebook is as follows:
 
 1. **Import Required Libraries**
 
-   ```python
-   from east import EAST_OUTPUT_LAYERS, decode_predictions
-   from imutils import paths
-   import numpy as np
-   import cv2 as cv
-   import matplotlib.pyplot as plt
-   ```
+   .. code-block:: python
+
+      from east import EAST_OUTPUT_LAYERS, decode_predictions
+      from imutils import paths
+      import numpy as np
+      import cv2 as cv
+      import matplotlib.pyplot as plt
 
 2. **Set Dataset and Model Paths**
 
-   ```python
-   dataset = 'dataset'  # Folder path containing images
-   image_paths = list(paths.list_images(dataset))
-   model_path = 'model/frozen_east_text_detection.pb'
-   ```
+   .. code-block:: python
+
+      dataset = 'dataset'  # Folder path containing images
+      image_paths = list(paths.list_images(dataset))
+      model_path = 'model/frozen_east_text_detection.pb'
 
 3. **Read and Prepare the Image**
 
-   ```python
-   image = cv.imread(image_paths[1])
-   (origH, origW) = image.shape[:2]
-   (newW, newH) = (320, 320)
-   rW = origW / float(newW)
-   rH = origH / float(newH)
-   ```
+   .. code-block:: python
+
+      image = cv.imread(image_paths[1])
+      (origH, origW) = image.shape[:2]
+      (newW, newH) = (320, 320)
+      rW = origW / float(newW)
+      rH = origH / float(newH)
 
 4. **Load the Pre-trained EAST Model**
 
-   ```python
-   net = cv.dnn.readNet(model_path)
-   ```
+   .. code-block:: python
+
+      net = cv.dnn.readNet(model_path)
 
 5. **Preprocess the Image**
 
-   ```python
-   blob = cv.dnn.blobFromImage(image, 1.0, (newW, newH),
-                               (123.68, 116.78, 103.94),
-                               swapRB=True, crop=False)
-   net.setInput(blob)
-   ```
+   .. code-block:: python
+
+      blob = cv.dnn.blobFromImage(image, 1.0, (newW, newH),
+                                 (123.68, 116.78, 103.94),
+                                 swapRB=True, crop=False)
+      net.setInput(blob)
 
 6. **Make Predictions**
 
-   ```python
-   (scores, geometry) = net.forward(EAST_OUTPUT_LAYERS)
-   ```
+   .. code-block:: python
+
+      (scores, geometry) = net.forward(EAST_OUTPUT_LAYERS)
 
 7. **Post-process Predictions**
 
-   Use the `decode_predictions` function to extract bounding boxes and confidence scores:
+   Use the ``decode_predictions`` function to extract bounding boxes and confidence scores:
 
-   ```python
-   (rects, confidence) = decode_predictions(scores, geometry)
-   ```
+   .. code-block:: python
+
+      (rects, confidence) = decode_predictions(scores, geometry)
 
 8. **Apply Non-Maxima Suppression**
 
    To filter overlapping boxes and keep only the best ones:
 
-   ```python
-   idxs = cv.dnn.NMSBoxesRotated(rects, confidence, 0.5, 0.4)
-   if len(idxs) > 0:
-       for i in idxs.flatten():
-           box = cv.boxPoints(rects[i])
-           box[:, 0] *= rW
-           box[:, 1] *= rH
-           box = np.int0(box)
-           cv.polylines(image, [box], True, (0, 255, 0), 2)
-   ```
+   .. code-block:: python
+
+      idxs = cv.dnn.NMSBoxesRotated(rects, confidence, 0.5, 0.4)
+      if len(idxs) > 0:
+          for i in idxs.flatten():
+              box = cv.boxPoints(rects[i])
+              box[:, 0] *= rW
+              box[:, 1] *= rH
+              box = np.int0(box)
+              cv.polylines(image, [box], True, (0, 255, 0), 2)
 
 9. **Visualize the Results**
 
-   ```python
-   plt.figure(figsize=(10,10))
-   plt.imshow(cv.cvtColor(image, cv.COLOR_BGR2RGB))
-   plt.show()
-   ```
+   .. code-block:: python
+
+      plt.figure(figsize=(10,10))
+      plt.imshow(cv.cvtColor(image, cv.COLOR_BGR2RGB))
+      plt.show()
 
 Batch Processing
 ----------------
 
 You can process multiple images in a loop:
 
-```python
-for img_path in image_paths:
-    img = cv.imread(img_path)
-    # ... (repeat preprocessing, prediction, and visualization steps)
-```
+.. code-block:: python
+
+   for img_path in image_paths:
+       img = cv.imread(img_path)
+       # ... (repeat preprocessing, prediction, and visualization steps)
 
 How to Use
 ----------
