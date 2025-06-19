@@ -14,7 +14,7 @@ Bienvenue à Textra-Health's documentation!
    :caption: Table des matières:
 
    equipe.rst
-   Pipeline.md
+   pipeline.rst
    benchmark_ocr.rst
    east.rst
    east_vlm.md
