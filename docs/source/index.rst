@@ -17,9 +17,9 @@ Bienvenue à Textra-Health's documentation!
    pipeline.rst
    benchmark_ocr.rst
    east.rst
-   east_vlm.md
+   east_vlm.rst
    east_ocr.rst
    ocr_docling.rst
    rag.rst
-   interface.md
-   perspectives.md
+   interface.rst
+   perspectives.rst
