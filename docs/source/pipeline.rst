@@ -64,4 +64,4 @@ Use Cases
 Summary
 -------
 
-This pipeline combines state-of-the-art computer vision and natural language processing to automate the extraction, understanding, and reporting of medical prescription data, improving efficiency and reducing errors in healthcare workflows.
+This pipeline combines computer vision and natural language processing to automate the extraction, understanding, and reporting of medical prescription data, improving efficiency and reducing errors in healthcare workflows.
