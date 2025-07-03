@@ -9,7 +9,7 @@ This documentation describes the end-to-end pipeline for analyzing medical presc
 Pipeline Architecture
 ---------------------
 
-.. image:: ../image/pipeline_diagram.png
+.. image:: image/pipeline_diagram.png
    :alt: Pipeline architecture diagram
    :align: center
 
