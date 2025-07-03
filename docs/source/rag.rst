@@ -8,35 +8,14 @@ On a choisi d'utiliser la technique RAG (Retrieval-Augmented Generation) pour g�
 Pipeline du RAG et du Traitement des Ordonnances
 ------------------------------------------------
 
-.. figure:: images/pipeline_rag.png
+.. figure:: image/pipeline_rag.jpeg
    :alt: Diagramme du pipeline RAG
    :width: 80%
    :align: center
 
     Architecture complète du système RAG pour le traitement des ordonnances
 
-1. Module de Détection de Texte (EAST)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**Fonction** : 
-Localisation précise des zones textuelles sur l'image scannée.
-
-**Output** : 
-Coordonnées des bounding boxes contenant le texte.
-
-2. Module d'Extraction du Texte OCR
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-**Solution choisie** : 
-Docling RapidOCR (meilleure performance en combinaison avec EAST)
-
-**Fonction** : 
-Reconnaissance des caractères dans les zones détectées.
-
-**Output** : 
-Texte extrait brut.
-
-3. Module de RAG
+1. Module de RAG
 ~~~~~~~~~~~~~~~~
 
 Composants principaux :
@@ -55,6 +34,8 @@ Composants principaux :
      - Personnalisé pour:
        - Correction automatique des sorties OCR (ex: "20o mg" → "200 mg")
        - Correction des noms de médicaments via un dictionnaire spécialisé
+
+
 
 Fonctionnement Avancé
 ---------------------

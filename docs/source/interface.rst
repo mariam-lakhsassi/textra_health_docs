@@ -12,7 +12,7 @@ Main Features
 - **Prescription Upload:**  
   Users can upload images of their medical prescriptions in JPG, JPEG format (up to 200MB per file).
 
-  .. image:: ../images/1.jpeg
+  .. image:: image/1.jpeg
      :width: 600
      :align: center
      :alt: Upload prescription interface
@@ -25,7 +25,7 @@ Main Features
   - Important usage instructions
   - Side effects and warnings
 
-  .. image:: ../images/2.jpeg
+  .. image:: image/2.jpeg
      :width: 600
      :align: center
      :alt: Prescription analysis
@@ -37,7 +37,7 @@ Main Features
   - Important advice (e.g., take with water, avoid alcohol)
   - Warnings and precautions
 
-  .. image:: ../images/3.jpeg
+  .. image:: image/3.jpeg
      :width: 600
      :align: center
      :alt: Analysis report
@@ -45,12 +45,12 @@ Main Features
 - **Medical Chatbot Assistant:**  
   Users can ask follow-up questions in natural language (e.g., "Quelles sont les effets secondaires du médicament prescrit dans cette ordonnance?"). The chatbot provides context-aware answers based on the prescription and medical knowledge.
 
-  .. image:: ../images/4.jpeg
+  .. image:: image/4.jpeg
      :width: 600
      :align: center
      :alt: Chatbot question
 
-  .. image:: ../images/5.jpeg
+  .. image:: image/5.jpeg
      :width: 600
      :align: center
      :alt: Chatbot answer
@@ -58,7 +58,7 @@ Main Features
 - **Disclaimer:**  
   The interface clearly states that it does not replace professional medical advice.
 
-  .. image:: ../images/6.jpeg
+  .. image:: image/6.jpeg
      :width: 600
      :align: center
      :alt: Disclaimer
