@@ -3,6 +3,14 @@ Fine-tuning PaLI-Gemma for Handwritten Prescription Recognition
 
 This documentation explains step-by-step how to fine-tune the PaLI-Gemma Vision-Language Model (VLM) on a custom dataset of handwritten medical prescriptions. It covers data preparation, environment setup, model loading, training, evaluation, and checkpoint saving.
 
+
+.. raw:: html
+
+   <a href="https://colab.research.google.com/github/mariam-lakhsassi/textra_health_docs/blob/main/notebook/finetune_paligemma.ipynb" target="_blank">
+      <button style="background-color: #FF9E0B; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer;">
+         Open Notebook
+      </button>
+   </a>
 Dataset Structure
 -----------------
 

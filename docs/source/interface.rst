@@ -12,7 +12,7 @@ Main Features
 - **Prescription Upload:**  
   Users can upload images of their medical prescriptions in JPG, JPEG format (up to 200MB per file).
 
-  .. image:: image/1.jpeg
+  .. image:: image/5.jpeg
      :width: 600
      :align: center
      :alt: Upload prescription interface
@@ -50,18 +50,12 @@ Main Features
      :align: center
      :alt: Chatbot question
 
-  .. image:: image/5.jpeg
+  .. image:: image/1.jpeg
      :width: 600
      :align: center
      :alt: Chatbot answer
 
-- **Disclaimer:**  
-  The interface clearly states that it does not replace professional medical advice.
 
-  .. image:: image/6.jpeg
-     :width: 600
-     :align: center
-     :alt: Disclaimer
 
 User Workflow
 -------------
@@ -71,18 +65,11 @@ User Workflow
    - Click on "Browse files" or drag and drop your prescription image into the upload area.
    - Supported formats: JPG, JPEG.
 
-   .. image:: ../images/1.jpeg
-      :width: 600
-      :align: center
-
 2. **Analyze Prescription**
    
    - Click "Analyser l'ordonnance".
    - The system processes the image and displays a summary of the prescription and a detailed analysis report.
 
-   .. image:: ../images/2.jpeg
-      :width: 600
-      :align: center
 
 3. **View Analysis Report**
    
@@ -98,9 +85,6 @@ User Workflow
         - Prendre avec de l'eau : cela indique que le patient doit prendre le médicament avec une quantité suffisante d'eau pour faciliter la digestion et la biodisponibilité du médicament.
         - Éviter l'alcool : cela peut être précautionnaire, car certains médicaments peuvent interagir avec l'alcool ou affecter ses effets.
 
-   .. image:: ../images/3.jpeg
-      :width: 600
-      :align: center
 
 4. **Ask the Chatbot**
    
@@ -110,21 +94,11 @@ User Workflow
      - "À quoi sert ce médicament ?"
    - The chatbot responds with relevant, context-aware information.
 
-   .. image:: ../images/4.jpeg
-      :width: 600
-      :align: center
-
-   .. image:: ../images/5.jpeg
-      :width: 600
-      :align: center
 
 5. **Disclaimer**
    
    - A warning is displayed: "Cet outil ne remplace pas un avis médical professionnel."
 
-   .. image:: ../images/6.jpeg
-      :width: 600
-      :align: center
 
 Technical Notes
 ---------------

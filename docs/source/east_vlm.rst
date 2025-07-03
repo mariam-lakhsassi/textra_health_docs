@@ -8,6 +8,14 @@ Overview
 
 The pipeline detects text regions in a prescription image using the EAST model, then recognizes each word using the PaLI-Gemma VLM. This approach leverages deep learning for both detection and recognition, enabling robust OCR even on complex or handwritten documents.
 
+
+.. raw:: html
+
+   <a href="https://colab.research.google.com/github/mariam-lakhsassi/textra_health_docs/blob/main/notebook/east_vlm.ipynb" target="_blank">
+      <button style="background-color: #FF9E0B; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer;">
+         Open Notebook
+      </button>
+   </a>
 Environment Setup
 -----------------
 

@@ -8,6 +8,14 @@ Introduction
 
 Text detection and recognition in natural images is a challenging task due to noise, varying lighting, perspective distortions, and complex backgrounds. The EAST (Efficient and Accurate Scene Text Detector) model provides a robust solution for detecting text regions of arbitrary orientation. Once detected, these regions can be cropped and passed to Tesseract for text recognition.
 
+
+.. raw:: html
+
+   <a href="https://colab.research.google.com/github/mariam-lakhsassi/textra_health_docs/blob/main/notebook/Simple OCR using East and pytesseract (1).ipynb" target="_blank">
+      <button style="background-color: #FF9E0B; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer;">
+         Voir notebook
+      </button>
+   </a>
 Project Structure
 -----------------
 

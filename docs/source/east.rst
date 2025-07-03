@@ -28,12 +28,20 @@ Introduction
 EAST (Efficient and Accurate Scene Text Detector) is a deep learning-based algorithm for detecting text in images. It is designed to localize text regions by directly predicting bounding boxes . EAST is particularly effective for detecting text in natural scenes and scanned documents.
 
 Key Features:
+
 - Detects text of arbitrary orientation.
   
 - Produces rotated or rectangular bounding boxes.
   
 - Fast and accurate, suitable for real-time applications.
 
+.. raw:: html
+
+   <a href="https://colab.research.google.com/github/mariam-lakhsassi/textra_health_docs/blob/main/notebook/east/East.ipynb" target="_blank">
+      <button style="background-color: #FF9E0B; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer;">
+         Open Notebook
+      </button>
+   </a>
 Model Architecture
 ------------------
 

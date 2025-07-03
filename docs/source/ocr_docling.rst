@@ -6,6 +6,14 @@ Overview
 
 This documentation describes how to combine the EAST text detector with the DocLing OCR pipeline for robust text extraction from images and PDFs. The approach leverages deep learning for text region detection and state-of-the-art OCR models for accurate recognition, making it suitable for complex documents such as medical prescriptions.
 
+
+.. raw:: html
+
+   <a href="https://colab.research.google.com/github/mariam-lakhsassi/textra_health_docs/blob/main/notebook/east_docling.ipynb" target="_blank">
+      <button style="background-color: #FF9E0B; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer;">
+         Open Notebook
+      </button>
+   </a>
 Pipeline Steps
 --------------
 

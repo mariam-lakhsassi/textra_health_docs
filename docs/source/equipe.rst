@@ -25,14 +25,18 @@ Team
 Supervisors:
 ----------------
     - **Supervisor**: M. Masrour Tawfik |linkedin_Masrour|
-    - **Supervisor**: M. Mehdi |linkedin_Masrour|
+    - **Supervisor**: M. Elmehdi Amhraoui |linkedin_Mehdi|
    
 .. |linkedin_Masrour| image:: image/LinkedIn_Logo.jpeg
     :width: 16
     :height: 16
     :target: https://www.linkedin.com/in/tawfik-masrour-43163b85/
 
-
+.. |linkedin_Mehdi| image:: image/LinkedIn_Logo.jpeg
+    :width: 16
+    :height: 16
+    :target: https://www.linkedin.com/in/elmehdi-amhraoui-b31a71107/
+    
 Members:
 --------------
 
