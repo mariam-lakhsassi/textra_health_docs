@@ -34,9 +34,9 @@ Ce document décrit le processus de benchmarking des modèles OCR (Optical Chara
 - Documenter le processus et les résultats pour référence future.
 .. raw:: html
 
-   <a href="https://colab.research.google.com/github/mariam-lakhsassi/textra_health_docs/blob/main/documentation/notebook/BENCHMARKS_OCR.ipynb" target="_blank">
+   <a href="https://colab.research.google.com/github/mariam-lakhsassi/textra_health_docs/blob/main/notebook/BENCHMARKS_OCR.ipynb" target="_blank">
       <button style="background-color: #FF9E0B; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer;">
-         Voir notebook dans Colab
+         Voir notebook
       </button>
    </a>
 Méthodologie
