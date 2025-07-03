@@ -1,4 +1,4 @@
-OCR Pipeline with EAST and PaLI-Gemma VLM
+EAST and PaLI-Gemma VLM
 =========================================
 
 This documentation explains step-by-step how to use the EAST text detector in combination with the PaLI-Gemma Vision-Language Model (VLM) for advanced OCR on prescription images. It covers environment setup, model upload, fine-tuning, Hugging Face secrets, and the integration of both models.

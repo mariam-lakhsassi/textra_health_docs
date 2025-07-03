@@ -19,8 +19,8 @@
    .orange {color: orange;}
    </style>
 
-Benchmarking des modèles OCR pour l'Extraction de Texte à partir d'Ordonnances Manuscrites
-=========================================================================================
+Benchmarking des modèles OCR 
+==============================
 
 Introduction
 ------------
@@ -34,7 +34,7 @@ Ce document décrit le processus de benchmarking des modèles OCR (Optical Chara
 - Documenter le processus et les résultats pour référence future.
 .. raw:: html
 
-   <a href=" https://colab.research.google.com/drive/1KCf9V_veW1ehjZRMrALcF4y-F3dCGGj5" target="_blank">
+   <a href="https://colab.research.google.com/github/mariam-lakhsassi/textra_health_docs/blob/main/documentation/notebook/BENCHMARKS_OCR.ipynb" target="_blank">
       <button style="background-color: #FF9E0B; color: white; padding: 8px 16px; border: none; border-radius: 4px; cursor: pointer;">
          Voir notebook dans Colab
       </button>
