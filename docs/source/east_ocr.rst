@@ -1,4 +1,4 @@
-OCR Pipeline: Text Detection with EAST and Recognition with Tesseract
+Text Detection with EAST and Recognition with Tesseract
 ====================================================================
 
 This documentation describes a complete OCR (Optical Character Recognition) pipeline using the EAST text detector and Tesseract OCR engine. The pipeline first detects text regions in images using the pre-trained EAST model, then extracts and recognizes the text using Tesseract.

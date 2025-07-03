@@ -25,11 +25,13 @@ EAST: Efficient and Accurate Scene Text Detector
 Introduction
 ------------
 
-EAST (Efficient and Accurate Scene Text Detector) is a deep learning-based algorithm for detecting text in images. It is designed to localize text regions by directly predicting bounding boxes (either rotated rectangles or quadrilaterals) without the need for intermediate region proposals. EAST is particularly effective for detecting text in natural scenes and scanned documents.
+EAST (Efficient and Accurate Scene Text Detector) is a deep learning-based algorithm for detecting text in images. It is designed to localize text regions by directly predicting bounding boxes . EAST is particularly effective for detecting text in natural scenes and scanned documents.
 
 Key Features:
 - Detects text of arbitrary orientation.
+  
 - Produces rotated or rectangular bounding boxes.
+  
 - Fast and accurate, suitable for real-time applications.
 
 Model Architecture
@@ -37,12 +39,9 @@ Model Architecture
 
 The EAST model is based on a Fully Convolutional Network (FCN) architecture. It uses a feature extractor (such as VGG16 or ResNet) followed by several convolutional layers to predict:
 - **Score Maps**: Indicate the presence of text in different regions.
+
 - **Geometry Maps**: Provide information about the bounding boxes (coordinates, rotation, etc.).
 
-.. image:: image/EAST.png
-   :alt: EAST model architecture
-   :align: center
-...existing code...
 
 Workflow Overview
 -----------------
@@ -129,16 +128,6 @@ The typical workflow for using EAST in the provided notebook is as follows:
       plt.imshow(cv.cvtColor(image, cv.COLOR_BGR2RGB))
       plt.show()
 
-Batch Processing
-----------------
-
-You can process multiple images in a loop:
-
-.. code-block:: python
-
-   for img_path in image_paths:
-       img = cv.imread(img_path)
-       # ... (repeat preprocessing, prediction, and visualization steps)
 
 How to Use
 ----------
